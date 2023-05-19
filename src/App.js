@@ -1,9 +1,12 @@
+import Navbar from "./components/Navbar";
+import Shop from "./components/Shop";
 
 
 function App() {
   return (
    <>
-   hello
+   <Navbar/>
+   <Shop/>
    </>
   );
 }
